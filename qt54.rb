@@ -18,7 +18,7 @@ class Qt54 < Formula
 
   bottle do
     root_url "https://github.com/PX4/homebrew-px4/releases/download/v1.0.0/"
-    revision 1
+    rebuild 1
     sha256 "d2299857a7c3f71a87df86ab12e4f621874e3e2474324abfe90087c7192d66ad" => :yosemite
   end
 

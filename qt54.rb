@@ -40,7 +40,7 @@ class Qt54 < Formula
   depends_on :macos => :lion
   depends_on "pkg-config" => :build
   depends_on "d-bus" => :optional
-  depends_on :mysql => :optional
+  depends_on "mysql" => :optional
   depends_on :xcode => :build
 
   # There needs to be an OpenSSL dep here ideally, but qt keeps ignoring it.

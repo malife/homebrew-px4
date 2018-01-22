@@ -44,7 +44,7 @@ diff -ru ../orig/kconfig-frontends-3.7.0.0/bootstrap ./bootstrap
  set -e
  
  printf "Running libtoolize...\n"
--glibtoolize --copy --force
+-libtoolize --copy --force
 +glibtoolize --copy --force
  
  printf "Running aclocal...\n"
